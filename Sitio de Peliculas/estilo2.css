@@ -1,0 +1,114 @@
+body{
+	margin: 0% 10%;
+}
+
+header>h1{
+	font-family: 'Anton';
+	color: #414239;
+	font-size: 4em;
+}
+
+h2{
+	font-family: 'Lobster';
+	color: #9e0947;
+	font-size: 2.5em;
+}
+
+h3{
+	color: #ce105c;
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.movies{
+	border-bottom: 1px dotted #d7d8cb;
+}
+
+div.movies>div>span>img{
+	display: inline-block;
+	width: 100%;
+}
+
+div.movies>div>span:first-child{
+	width: 15%;
+}
+
+
+div.movies>div>span>img:hover{
+	display: inline-block;
+	opacity: 0.8;
+}
+
+div.movies>div>span{
+	display: inline-block;
+	margin:10px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+div.movies>div>span:nth-child(2){
+	width: 25%;
+}
+
+div.movies>div>span>p{
+	display: inline-block;
+	text-align: justify;
+    text-justify: inter-word;
+    font=font-family: 'Verdana';
+}
+
+div.movies>div>span>ul{
+	display: inline-block;
+	list-style-image: url('http://web-toolkit.global.sky.com/2.2.13-rc-v1/_site/static/font-svgs/carousel-play.svg');
+	padding: 20px;
+	margin: 0px;
+}
+
+div.movies>div>span>video{
+	display: inline;
+}
+
+div.movies>div>span>ul>li[famoso="principal"]{
+	font-weight: bold;
+}
+
+div.movies>div>span>ul>li[famoso="secundario"]{
+	font-style: italic;
+}
+
+
+/*Box Model*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width : 480px) {
+	div.movies>div>span.cell{
+		display:none;
+	}
+}
+
+@media only screen and (min-width : 481px) and (max-width : 768px) {
+	div.movies>div>span.cell{
+		display:none;
+	}
+	
+	ul{
+		display:none;
+	}
+}
+
+
+
+
