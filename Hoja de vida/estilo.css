@@ -1,0 +1,105 @@
+body {
+	background-color: #ffffff;
+	margin: 0 25%;
+	font-family: sans-serif;
+}
+
+header > h1 {
+	
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+h2{
+	margin-left: 10px;
+}
+div.block{
+	display: block;
+	border: 1px solid #cbccc1;
+	margin: 10px;
+}
+
+div#nombres>span>img{
+	width: 15%;
+	display: inline-block;
+	margin: 5px;
+}
+
+div#nombres span#info_nombre ul{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+
+div#datos h2{
+	text-align: center;
+}
+
+div#datos p{
+	margin-left: 10px;
+}
+
+div#educacion div:nth-child(2){
+	border-bottom: 2px solid black;
+	border-collapse: separate;
+}
+
+div.info_educacion span:nth-child(3){
+	position: relative;
+}
+
+div.info_educacion span img{
+	width: 15%;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+div.info_educacion span:last-child{
+	display: inline-block;
+}
+
+
+div.info_educacion span.fecha{
+	font-style: italic;
+}
+
+div.info_educacion ul{
+	list-style: none;
+	padding: 0px;
+}
+
+div#habilidades>div>div{
+	display: inline-block;
+	position: relative;
+	margin: 5px;
+}
+
+span.circle{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #3b5998;
+	text-align: center;
+	float:left;
+	position: absolute;
+}
+
+span.circle p{
+	color: #ffffff;
+}
+
+span.skill{
+	display: inline-block;
+	background-color: #E0E0E0;
+	border-radius: 20%;
+	padding: 0px 20px 1px 50px;
+	margin: 3px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+span.skill p{
+	margin:0px;
+	padding:8px;
+}
