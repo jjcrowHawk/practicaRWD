@@ -97,6 +97,15 @@ div.movies>div>span>ul>li[famoso="secundario"]{
 	div.movies>div>span.cell{
 		display:none;
 	}
+	div.movies>div>span>ul{
+		list-style-image: none;
+		list-style-type: none;
+		padding:0px;
+		margin:0px;
+	}
+	li {
+		list-style-type : none;
+	}
 }
 
 @media only screen and (min-width : 481px) and (max-width : 768px) {
@@ -104,8 +113,14 @@ div.movies>div>span>ul>li[famoso="secundario"]{
 		display:none;
 	}
 	
-	ul{
-		display:none;
+	div.movies>div>span>ul{
+		list-style-image: none;
+		list-style-type:none;
+		padding:0px;
+		margin:0px;
+	}
+	li {
+		list-style-type : none;
 	}
 }
 
