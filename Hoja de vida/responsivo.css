@@ -71,6 +71,55 @@ header {
 		display: none;
 	}
 
+
+	body{
+		margin: 0 10%;
+	}
+
+	div.block{
+		border-radius: 25px;
+		background-color: #d4e3fc;
+	}
+
+	div#educacion h2{
+		text-align: center;
+	}
+
+	div.info_educacion span{
+		margin: 0px;
+  		display: inline-block;
+	}
+
+	div#educacion div:nth-child(2){
+		border-bottom: none;
+		border-collapse: none;
+	}
+
+	div#nombres span img{
+		text-align: center;
+		display: block;
+		margin:auto;
+	}
+
+	span#info_nombre li:nth-child(1),span#info_nombre li:nth-child(2){
+		display: none;
+	}
+
+
+	span#info_nombre li:nth-child(3),span#info_nombre li:nth-child(4){
+		text-align: center;
+	}
+
+	div.info_educacion, div.info_educacion span {
+		display: inline;
+	}
+
+
+
+	div.info_educacion ul{
+		list-style: none;
+		width: 10%;
+	}
 	/*[class*="col-"] {
 		width: 100% !important;
 	}

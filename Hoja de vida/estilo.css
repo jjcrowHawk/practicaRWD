@@ -93,7 +93,7 @@ span.circle p{
 span.skill{
 	display: inline-block;
 	background-color: #E0E0E0;
-	border-radius: 20%;
+	border-radius: 25px;
 	padding: 0px 20px 1px 50px;
 	margin: 3px;
 	box-shadow: 5px 5px 5px #888888;
